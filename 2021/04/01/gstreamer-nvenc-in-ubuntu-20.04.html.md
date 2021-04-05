@@ -71,7 +71,7 @@ $ gst-launch-1.0 videotestsrc num-buffers=10000 ! nvh264enc ! h264parse ! mp4mux
 About 2.3 seconds with 100% CPU.
 
 ## Alternatives
-The apt supported version of these plugins are limited to H.264 and 4K pixels in either dimension. Features have fleshed out upstream. Elements for the Nvidia Tegra line of MPUs provide more features, but the required hardware probably isn’t included with your workstation.
+The apt supported version of these plugins are limited to H.264 and 4K pixels in either dimension. Features have been fleshed out upstream. Elements for the Nvidia Tegra line of MPUs provide more features, but the required hardware probably isn’t included with your workstation.
 
 [Ffmpeg also provides hardware accelerated elements](https://trac.ffmpeg.org/wiki/HWAccelIntro), including nvcodec supported H.264 and HEVC encoders and decoders, out of the box on Ubuntu.
 

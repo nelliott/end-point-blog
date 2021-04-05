@@ -56,7 +56,7 @@ nvdec:  nvdec: NVDEC video decoder
 ```
 
 ## Benchmark
-Here is an example pipeline using the standard H.264 encoder to encode 10000 frames at 320x240.
+Here is an example pipeline using the standard CPU based H.264 encoder to encode 10000 frames at 320x240.
 
 ```
 $ gst-launch-1.0 videotestsrc num-buffers=10000 ! x264enc ! h264parse ! mp4mux ! filesink location=vid1.mp4

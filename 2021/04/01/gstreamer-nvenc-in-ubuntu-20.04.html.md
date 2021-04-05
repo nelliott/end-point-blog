@@ -13,7 +13,7 @@ Gstreamer includes elements as part of the “[Gstreamer Bad](https://gstreamer.
 ## Environment
 * Ubuntu 20.04
 * [Video card from GPU support matrix](https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new)
-* [Gstreamer](https://gstreamer.freedesktop.org/documentation/installing/on-linux.html?gi-language=c#install-gstreamer-on-ubuntu-or-debian)
+* [Install Gstreamer](https://gstreamer.freedesktop.org/documentation/installing/on-linux.html?gi-language=c#install-gstreamer-on-ubuntu-or-debian)
 
 ## CUDA
 The nvenc and nvdec plugins depend on cuda 11. The apt version is too old. I’ve found the [runfile](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&target_distro=Debian&target_version=10&target_type=runfilelocal) to be the most reliable installation method.

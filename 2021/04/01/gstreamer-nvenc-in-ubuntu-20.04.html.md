@@ -63,7 +63,7 @@ $ gst-launch-1.0 videotestsrc num-buffers=10000 ! x264enc ! h264parse ! mp4mux !
 ```
 On my modest machine, this took around 9.6 seconds and 400% CPU.
 
-Running the same command again with the nvenc element.
+Running the same pipeline with the nvenc element.
 
 ```
 $ gst-launch-1.0 videotestsrc num-buffers=10000 ! nvh264enc ! h264parse ! mp4mux ! filesink location=vid2.mp4

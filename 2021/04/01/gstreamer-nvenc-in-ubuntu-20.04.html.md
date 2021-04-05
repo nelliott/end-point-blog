@@ -6,7 +6,7 @@ tags: gstreamer, nvenc, nvcodec, H.264
 
 Gstreamer is a library for creating media-handling components. Using gstreamer you can screencast your desktop, transcode a live stream, or write a media player application for your kiosk.
 
-Video encoding is expensive, even with rising CPU core counts making it more palatable. Recent Nvidia Quadro and GeForce video cards include dedicated H.264 encoding and decoding hardware as a set of discrete components alongside the GPU. The hardware is used in the popular Shadowplay toolkit on Windows and available to developers through the Nvidia Video SDK on Linux.
+Video encoding is expensive, even with AMD's recent lineup making it more palatable. Recent Nvidia Quadro and GeForce video cards include dedicated H.264 encoding and decoding hardware as a set of discrete components alongside the GPU. The hardware is used in the popular Shadowplay toolkit on Windows and available to developers through the Nvidia Video SDK on Linux.
 
 Gstreamer includes elements as part of the “[Gstreamer Bad](https://gstreamer.freedesktop.org/modules/gst-plugins-bad.html)” plugin set that leverages the SDK without having to get your hands too dirty. The plugins are not included with gst-plugins-bad in apt, and must be compiled with supporting libs from Nvidia. Previously this required registering with Nvidia and downloading the Nvidia Video SDK, but Ubuntu recently added apt packages providing them, a big help for automation.
 
